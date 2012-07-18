@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="BST"
+	ProjectGUID="{B692A1FD-F51D-461F-B678-28C3A42DA63B}"
+	Keyword="MakeFileProj"
+	TargetFrameworkVersion="196613"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="%QTDIR%\bin\qmake&#x0D;&#x0A;nmake debug"
+				ReBuildCommandLine="%QTDIR%\bin\qmake&#x0D;&#x0A;nmake debug-clean&#x0D;&#x0A;nmake debug"
+				CleanCommandLine="%QTDIR%\bin\qmake&#x0D;&#x0A;nmake debug-clean"
+				Output="debug\BST.exe"
+				PreprocessorDefinitions="WIN32;_DEBUG;UNICODE;QT_LARGEFILE_SUPPORT;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_THREAD_SUPPORT"
+				IncludeSearchPath="%QTDIR%\include;%QTDIR%\include\Qt;%QTDIR%\include\QtCore;%QTDIR%\include\QtGui;%QTDIR%\include\ActiveQt;%QTDIR%\include\Qt3Support;%QTDIR%\include\QtAssistant;%QTDIR%\include\QtDBus;%QTDIR%\include\QtDesigner;%QTDIR%\include\QtNetwork;%QTDIR%\include\QtOpenGL;%QTDIR%\include\QtScript;%QTDIR%\include\QtSql;%QTDIR%\include\QtSvg;%QTDIR%\include\QtTest;%QTDIR%\include\QtUiTools;%QTDIR%\include\QtXml;%QTDIR%\mkspecs\win32-msvc2005;"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="%QTDIR%\bin\qmake -config release&#x0D;&#x0A;nmake release"
+				ReBuildCommandLine="%QTDIR%\bin\qmake -config release&#x0D;&#x0A;nmake release-clean&#x0D;&#x0A;nmake release"
+				CleanCommandLine="%QTDIR%\bin\qmake -config release&#x0D;&#x0A;nmake release-clean"
+				Output="release\BST.exe"
+				PreprocessorDefinitions="WIN32;NDEBUG;UNICODE;QT_LARGEFILE_SUPPORT;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_THREAD_SUPPORT"
+				IncludeSearchPath="%QTDIR%\include;%QTDIR%\include\Qt;%QTDIR%\include\QtCore;%QTDIR%\include\QtGui;%QTDIR%\include\ActiveQt;%QTDIR%\include\Qt3Support;%QTDIR%\include\QtAssistant;%QTDIR%\include\QtDBus;%QTDIR%\include\QtDesigner;%QTDIR%\include\QtNetwork;%QTDIR%\include\QtOpenGL;%QTDIR%\include\QtScript;%QTDIR%\include\QtSql;%QTDIR%\include\QtSvg;%QTDIR%\include\QtTest;%QTDIR%\include\QtUiTools;%QTDIR%\include\QtXml;%QTDIR%\mkspecs\win32-msvc2005;"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<File
+			RelativePath=".\BST.pro"
+			>
+		</File>
+		<File
+			RelativePath=".\main.cpp"
+			>
+		</File>
+		<File
+			RelativePath=".\mainwindow.cpp"
+			>
+		</File>
+		<File
+			RelativePath=".\mainwindow.h"
+			>
+		</File>
+		<File
+			RelativePath=".\node.cpp"
+			>
+		</File>
+		<File
+			RelativePath=".\node.h"
+			>
+		</File>
+		<File
+			RelativePath=".\tree.cpp"
+			>
+		</File>
+		<File
+			RelativePath=".\tree.h"
+			>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
